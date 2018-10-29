@@ -48,3 +48,5 @@ sr.reveal('.info-right', {
    distance:'300px',
    viewFactor:0.2
 });
+
+

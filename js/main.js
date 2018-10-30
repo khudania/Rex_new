@@ -50,3 +50,18 @@ sr.reveal('.info-right', {
 });
 
 
+// $('.panel-collapse').on('show.bs.collapse', function () {
+//     $(this).siblings('.panel-heading').addClass('active');
+//   });
+
+//   $('.panel-collapse').on('hide.bs.collapse', function () {
+//     $(this).siblings('.panel-heading').removeClass('active');
+//   });
+
+$(".open-button").on("click", function() {
+    $(this).closest('.collapse-group').find('.collapse').collapse('show');
+  });
+  
+  $(".close-button").on("click", function() {
+    $(this).closest('.collapse-group').find('.collapse').collapse('hide');
+  });

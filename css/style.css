@@ -1140,3 +1140,67 @@ select {
   transform: rotateY(180deg);
   z-index: 1;
 }
+
+
+/*Collapsible Panels*/
+/* .wrapper{
+  width:70%;
+}
+@media(max-width:992px){
+ .wrapper{
+  width:100%;
+} 
+}
+.panel-heading {
+  padding: 0;
+	border:0;
+}
+.panel-title>a, .panel-title>a:active{
+	display:block;
+	padding:15px;
+  color:#000;
+  font-size:16px;
+  font-weight:400;
+	letter-spacing:1px;
+  word-spacing:3px;
+	text-decoration:none;
+}
+.panel-heading  a:before {
+   font-family: 'Glyphicons Halflings';
+   content: "\e114";
+   float: right;
+   transition: all 0.5s;
+}
+.panel-heading.active a:before {
+	-webkit-transform: rotate(180deg);
+	-moz-transform: rotate(180deg);
+	transform: rotate(180deg);
+}  */
+
+a:hover, a:visited, a:link, a:active {
+  text-decoration: none;
+}
+
+.controls {
+  margin-bottom: 10px;
+}
+
+.collapse-group {
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.panel-title .trigger:before {
+  content: '\e082';
+  font-family: 'Glyphicons Halflings';
+  vertical-align: text-bottom;
+  color: #0073bb;
+}
+
+.panel-title .trigger.collapsed:before {
+  content: '\e081';
+}
+
+.panel{
+  box-shadow:2px 3px #999;
+}

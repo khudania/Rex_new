@@ -65,3 +65,16 @@ $(".open-button").on("click", function() {
   $(".close-button").on("click", function() {
     $(this).closest('.collapse-group').find('.collapse').collapse('hide');
   });
+
+  //Animated Number Counter 
+  $('.count').each(function() {
+    $(this).prop('Counter', 0).animate({
+      Counter: $(this).text()
+    }, {
+      duration: 6000,
+      easing: 'swing',
+      step: function(now) {
+        $(this).text(Math.ceil(now));
+      }
+    });
+  });

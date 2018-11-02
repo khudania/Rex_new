@@ -1204,3 +1204,59 @@ a:hover, a:visited, a:link, a:active {
 .panel{
   box-shadow:2px 3px #999;
 }
+
+
+/*Managed Security Services Page*/
+.single-product {
+  height: 50vh;
+  /* border: #000000; */
+  border-style: solid;
+  border-width: 1px;
+  box-shadow: 2px 3px #5c5c5c;
+  margin-top: 30px;
+  background: #fff;
+  padding: 70px 20px;
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+    }
+    
+  .single-product .icon {
+  text-align: center;
+  margin-bottom: 10px;
+  
+    }
+   
+    .single-product .icon .fas{
+  overflow-y: hidden;
+    }
+  
+    .single-product .icon{
+  font-size: 48px;
+  color:  rgb(57, 30, 177);
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+    }
+    
+  .single-product .desc {
+  text-align: center;
+  color: black;
+    }
+    
+    .single-product .desc h4 {
+  margin-bottom: 10px;
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+    }
+    .single-product:hover {
+      background:  rgb(57, 30, 177);
+        }
+        
+        .single-product:hover .icon, .single-product:hover .desc h3{
+      color: #fff;
+        }  
